@@ -36,7 +36,7 @@ using System.Text.RegularExpressions; //Standard library for Pattern matching
 
 //Above commands commented out; Sample Regular Expressions commonly used for searching for or manipulating data
 
-string pattern = "Thomas";//Standard alphasnumeric characters to be replaced with Regex with above commands
+string pattern = "Thomas"; //Standard alphasnumeric characters to be replaced with Regex utilizing above commands
 Console.WriteLine(format: "Thomas Speer " + Regex.IsMatch(input: "Thomas Speer", pattern, RegexOptions.IgnoreCase));//Commands such as Ignore case are useful possibilities but not preferred when working with the data
 Console.WriteLine(format: "Thomas Speer " + Regex.IsMatch(input: "Thomas Speer", pattern));
 Console.WriteLine(format: "T Speer " + Regex.IsMatch(input: "T Speer", pattern));
